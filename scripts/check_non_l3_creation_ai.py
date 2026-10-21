@@ -271,13 +271,26 @@ def table(path, sheet, key):
     return [dict(zip(rows[h], r)) for r in rows[h + 1:] if r and any(r)]
 
 
+CLUES = OUT / 'old_clues.json'          # copy of the clue fields, so the package runs without ROOT/others
+
+
 def old_clues():
+    if not (OLD_TRACE_CSV.exists() and OLD_SEP02[0].exists() and OLD_JUL31[0].exists()):
+        d = json.loads(CLUES.read_text())
+        unpack = lambda m: {tuple(k.split('\t')): v for k, v in m.items()}
+        return unpack(d['trace']), unpack(d['sep02']), unpack(d['jul31'])
     trace = {}
-    if OLD_TRACE_CSV.exists():
-        for r in csv.DictReader(open(OLD_TRACE_CSV, encoding='utf-8-sig')):
-            trace[(r['repository'], r['current_adr_path'])] = r
-    sep = {(t['Repository'], t['ADR file path']): t for t in table(*OLD_SEP02, 'Lifecycle classification')}
-    jul = {(t['Repository'], t['ADR file path']): t for t in table(*OLD_JUL31, 'Lifecycle tag')}
+    for r in csv.DictReader(open(OLD_TRACE_CSV, encoding='utf-8-sig')):
+        trace[(r['repository'], r['current_adr_path'])] = {k: r[k] for k in ('creation_path_traced', 'creation_commit_sha')}
+    keep = lambda t, cols: {c: (str(t[c]) if t.get(c) is not None else None) for c in cols}
+    sep = {(t['Repository'], t['ADR file path']): keep(t, ('Lifecycle classification', 'Earlier AI create/touch SHA'))
+           for t in table(*OLD_SEP02, 'Lifecycle classification')}
+    jul = {(t['Repository'], t['ADR file path']): keep(t, ('Lifecycle tag', 'ADR creation commit'))
+           for t in table(*OLD_JUL31, 'Lifecycle tag')}
+    OUT.mkdir(parents=True, exist_ok=True)
+    pack = lambda m: {'\t'.join(k): v for k, v in m.items() if all(k)}
+    CLUES.write_text(json.dumps({'sources': [str(p.relative_to(ROOT)) for p in (OLD_TRACE_CSV, OLD_SEP02[0], OLD_JUL31[0])],
+                                 'trace': pack(trace), 'sep02': pack(sep), 'jul31': pack(jul)}, indent=1))
     return trace, sep, jul
 
 

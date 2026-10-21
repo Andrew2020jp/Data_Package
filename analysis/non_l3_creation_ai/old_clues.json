@@ -1,0 +1,1309 @@
+{
+ "sources": [
+  "others/audits/non_l3_creation_20260910/non_l3_creation_evidence.csv",
+  "others/adr_ai_traces_list_english_main.xlsx",
+  "others/archive/sources/original.xlsx"
+ ],
+ "trace": {
+  "apache/airflow\tdev/breeze/doc/adr/0003-bootstrapping-virtual-environment.md": {
+   "creation_path_traced": "dev/breeze/doc/adr/0003-bootstraping-virtual-environment.md",
+   "creation_commit_sha": "2c80aaab4f486688fa4b8e252e1147a5dfabee54"
+  },
+  "pia-foss/mobile-ios\tADRs/0005-replace-csi-sdk-with-internal-implementation.md": {
+   "creation_path_traced": "ADRs/0005-replace-csi-sdk-with-internal-implementation.md",
+   "creation_commit_sha": "4799b25"
+  },
+  "pia-foss/mobile-ios\tADRs/0006-ios-coordinator-navigation-pattern.md": {
+   "creation_path_traced": "ADRs/0006-ios-coordinator-navigation-pattern.md",
+   "creation_commit_sha": "4799b25"
+  },
+  "BrighterCommand/Darker\tdocs/adr/0016-pipeline-attribute-memoization.md": {
+   "creation_path_traced": "docs/adr/0016-pipeline-attribute-memoization.md",
+   "creation_commit_sha": "bce5409"
+  },
+  "opendatahub-io/odh-dashboard\tpackages/gen-ai/docs/adr/0005-authentication-authorization-architecture.md": {
+   "creation_path_traced": "packages/gen-ai/docs/adr/0005-authentication-authorization-architecture.md",
+   "creation_commit_sha": "41a4f77"
+  },
+  "opendatahub-io/odh-dashboard\tpackages/gen-ai/docs/adr/0010-kubernetes-client-architecture.md": {
+   "creation_path_traced": "packages/gen-ai/docs/adr/0010-kubernetes-client-architecture.md",
+   "creation_commit_sha": "41a4f77"
+  },
+  "briandenicola/password-vault\tdocs/adr/0005-entra-server-side-auth.md": {
+   "creation_path_traced": "docs/adr/0005-entra-server-side-auth.md",
+   "creation_commit_sha": "f2fe683"
+  },
+  "defenseunicorns/pepr\tadr/0003-use-commonjs-and-esbuild.md": {
+   "creation_path_traced": "adr/0003-use-commonjs-and-esbuild.md",
+   "creation_commit_sha": "87de7a8"
+  },
+  "mendixlabs/mxcli\tdocs/13-decisions/0006-mcp-capability-model.md": {
+   "creation_path_traced": "docs/13-decisions/0004-mcp-capability-model.md",
+   "creation_commit_sha": "006e87403238c8fb2d0c59228d1bc59ae09b734a"
+  },
+  "mendixlabs/mxcli\tdocs/13-decisions/0007-mcp-read-model-session-overlay.md": {
+   "creation_path_traced": "docs/13-decisions/0005-mcp-read-model-session-overlay.md",
+   "creation_commit_sha": "d5c209c17fe05b3a9f49ae46743985f7338c326e"
+  },
+  "openstack-experimental/keystone\tdoc/src/adr/0016-v2-raft-storage.md": {
+   "creation_path_traced": "doc/src/adr/0016-v2-raft-storage.md",
+   "creation_commit_sha": "8c1420d"
+  },
+  "openstack-experimental/keystone\tdoc/src/adr/0021-api-key-scim.md": {
+   "creation_path_traced": "doc/src/adr/0021-api-key-scim.md",
+   "creation_commit_sha": "8a159f7"
+  },
+  "openstack-experimental/keystone\tdoc/src/adr/0022-rate-limiting.md": {
+   "creation_path_traced": "doc/src/adr/0022-rate-limiting.md",
+   "creation_commit_sha": "3a67158"
+  },
+  "openstack-experimental/keystone\tdoc/src/adr/0023-audit.md": {
+   "creation_path_traced": "doc/src/adr/0023-audit.md",
+   "creation_commit_sha": "a955715"
+  },
+  "gilesknap/tpi-k3s-ansible\tdocs/explanations/decisions/0009-longhorn-exclude-workstations.md": {
+   "creation_path_traced": "docs/explanations/decisions/0009-longhorn-exclude-workstations.md",
+   "creation_commit_sha": "50575e8"
+  },
+  "sbomify/sbomify-action\tdocs/adr/0002-plugin-architecture.md": {
+   "creation_path_traced": "docs/adr/0001-plugin-architecture.md",
+   "creation_commit_sha": "1dae78755e50e6da9c8aa0eb1a68264aa8a6d2a7"
+  },
+  "andreibesleaga/GABBE\tdocs/adr/0002-brain-active-inference-runtime.md": {
+   "creation_path_traced": "docs/adr/0002-brain-active-inference-runtime.md",
+   "creation_commit_sha": "347c3a2"
+  },
+  "meridianhub/meridian\tdocs/adr/0006-tilt-local-development.md": {
+   "creation_path_traced": "docs/adr/0006-tilt-local-development.md",
+   "creation_commit_sha": "aecd119"
+  },
+  "meridianhub/meridian\tdocs/adr/0033-event-triggered-sagas.md": {
+   "creation_path_traced": "docs/adr/0033-event-triggered-sagas.md",
+   "creation_commit_sha": "30c468b"
+  },
+  "aRustyDev/agents\tcontent/plugins/blog-workflow/docs/src/adrs/0001-record-architecture-decisions.md": {
+   "creation_path_traced": "context/plugins/blog-workflow/docs/src/adrs/0001-record-architecture-decisions.md",
+   "creation_commit_sha": "613c8c0615156ac275b5964114bf4381fc6bcec0"
+  },
+  "aRustyDev/agents\tcontent/plugins/blog-workflow/docs/src/adrs/0002-post-type-taxonomy.md": {
+   "creation_path_traced": "context/plugins/blog-workflow/docs/src/adrs/0002-post-type-taxonomy.md",
+   "creation_commit_sha": "613c8c0615156ac275b5964114bf4381fc6bcec0"
+  },
+  "aRustyDev/agents\tdocs/src/adr/0003-plugin-build-system.md": {
+   "creation_path_traced": "docs/src/adr/0003-plugin-build-system.md",
+   "creation_commit_sha": "cb8267f"
+  },
+  "aRustyDev/agents\tdocs/src/adr/005-file-watching.md": {
+   "creation_path_traced": "docs/src/adr/005-file-watching.md",
+   "creation_commit_sha": "a5ff60f"
+  },
+  "aRustyDev/agents\tdocs/src/adr/009-slash-command-file-organization.md": {
+   "creation_path_traced": "docs/src/adr/009-slash-command-file-organization.md",
+   "creation_commit_sha": "81e9bc2"
+  },
+  "aRustyDev/agents\tdocs/src/adr/010-nested-context-directory-structure.md": {
+   "creation_path_traced": "docs/src/adr/010-nested-context-directory-structure.md",
+   "creation_commit_sha": "1950724"
+  },
+  "aRustyDev/agents\tdocs/src/adr/014-external-skill-tracking-architecture.md": {
+   "creation_path_traced": "docs/src/adr/014-external-skill-tracking-architecture.md",
+   "creation_commit_sha": "2632fac"
+  },
+  "aRustyDev/agents\tdocs/src/adr/019-append-only-error-log.md": {
+   "creation_path_traced": "docs/src/adr/019-append-only-error-log.md",
+   "creation_commit_sha": "41321d7"
+  },
+  "lucasrcezimbra/missas.com.br\tdocs/architecture/decisions/0003-geocoding-without-spatialite.md": {
+   "creation_path_traced": "docs/architecture/decisions/0003-geocoding-without-spatialite.md",
+   "creation_commit_sha": "597ff9b"
+  },
+  "cameronzucker/tuxlink\tdocs/adr/0020-linux-support-matrix-and-build-floor.md": {
+   "creation_path_traced": "docs/adr/0020-linux-support-matrix-and-build-floor.md",
+   "creation_commit_sha": "7148b60"
+  },
+  "hiroshiyui/5thPlanet\tdoc/adr/0019-gpu-is-presentation-only.md": {
+   "creation_path_traced": "doc/adr/0019-gpu-is-presentation-only.md",
+   "creation_commit_sha": "b54f1cf"
+  },
+  "qnbs/CannaGuide-2025\tdocs/adr/0012-desktop-tauri-architecture.md": {
+   "creation_path_traced": "docs/adr/0012-desktop-tauri-architecture.md",
+   "creation_commit_sha": "02cb78a"
+  },
+  "yu-iskw/sqlfluff-complexity\tdocs/adr/0007-lint-scope-vs-report-file-rollup.md": {
+   "creation_path_traced": "docs/adr/0007-lint-scope-vs-report-file-rollup.md",
+   "creation_commit_sha": "e0d3b5a"
+  },
+  "codeheadsystems/pk-auth\tdocs/adr/0019-crypto-agility-post-quantum-readiness.md": {
+   "creation_path_traced": "docs/adr/0019-crypto-agility-post-quantum-readiness.md",
+   "creation_commit_sha": "a85c309"
+  },
+  "dbroeglin/github-copilot-lab\tdocs/adr/0003-sqlite-derived-index.md": {
+   "creation_path_traced": "docs/adr/0003-sqlite-derived-index.md",
+   "creation_commit_sha": "024c9eb"
+  },
+  "dbroeglin/github-copilot-lab\tdocs/adr/0019-use-nested-pier-run-directories.md": {
+   "creation_path_traced": "docs/adr/0019-use-nested-pier-run-directories.md",
+   "creation_commit_sha": "2543699"
+  },
+  "ma3u/hackathon-spark\tdocs/adr/0016-design-system-material-bundestag.md": {
+   "creation_path_traced": "docs/adr/0016-design-system-material-bundestag.md",
+   "creation_commit_sha": "858d568"
+  },
+  "tweag/cardano-cls\tdoc/adr/0003-move-to-raw-mempack-use-instead-of-binary.md": {
+   "creation_path_traced": "doc/adr/0003-move-to-raw-mempack-use-instead-of-binary.md",
+   "creation_commit_sha": "d9c914f"
+  },
+  "5queezer/aver\tdoc/adr/0020-browser-consent-flow-replacing-approval-token.md": {
+   "creation_path_traced": "doc/adr/0020-browser-consent-flow-replacing-approval-token.md",
+   "creation_commit_sha": "39457e0"
+  },
+  "div0rce/quant-systems-lab\tdocs/adr/0002-independent-ocaml-oracle.md": {
+   "creation_path_traced": "docs/adr/0002-independent-ocaml-oracle.md",
+   "creation_commit_sha": "ef4eaab"
+  },
+  "div0rce/quant-systems-lab\tdocs/adr/0003-golden-fixture-regeneration.md": {
+   "creation_path_traced": "docs/adr/0003-golden-fixture-regeneration.md",
+   "creation_commit_sha": "ef4eaab"
+  },
+  "div0rce/quant-systems-lab\tdocs/adr/0004-deterministic-shrinker.md": {
+   "creation_path_traced": "docs/adr/0004-deterministic-shrinker.md",
+   "creation_commit_sha": "ef4eaab"
+  },
+  "div0rce/quant-systems-lab\tdocs/adr/0007-constrained-perf-artifacts-are-partial-evidence.md": {
+   "creation_path_traced": "docs/adr/0007-constrained-perf-artifacts-are-partial-evidence.md",
+   "creation_commit_sha": "86443f0"
+  },
+  "div0rce/quant-systems-lab\tdocs/adr/0008-socket-evidence-loopback-constrained-epoll-deferred.md": {
+   "creation_path_traced": "docs/adr/0008-socket-evidence-loopback-constrained-epoll-deferred.md",
+   "creation_commit_sha": "3f88a1f"
+  },
+  "div0rce/quant-systems-lab\tdocs/adr/0011-event-log-durability-modes-and-tail-repair.md": {
+   "creation_path_traced": "docs/adr/0011-event-log-durability-modes-and-tail-repair.md",
+   "creation_commit_sha": "d10bfb0"
+  },
+  "Joymerrevent/porters-connect\tdocs/adr/0038-read-query-surface-impl.md": {
+   "creation_path_traced": "docs/adr/0038-read-query-surface-impl.md",
+   "creation_commit_sha": "e60048b"
+  },
+  "nikitakarpei/yacy-rwi-node\tyacynode/doc/adr/0006-use-testcontainers-for-e2e-tests.md": {
+   "creation_path_traced": "yacynode/doc/adr/0006-use-testcontainers-for-e2e-tests.md",
+   "creation_commit_sha": "e8f247a"
+  },
+  "nikitakarpei/yacy-rwi-node\tyacynode/doc/adr/0007-use-nats-jetstream-for-node-crawler-queue.md": {
+   "creation_path_traced": "yacynode/doc/adr/0007-use-nats-jetstream-for-node-crawler-queue.md",
+   "creation_commit_sha": "e8f247a"
+  },
+  "sedarged/TikTok-AI-Agent\tdocs/adr/0003-render-pipeline-design.md": {
+   "creation_path_traced": "docs/adr/0003-render-pipeline-design.md",
+   "creation_commit_sha": "012f1ad"
+  },
+  "ChelseaKR/family-greenhouse\tdocs/adr/0001-record-architecture-decisions.md": {
+   "creation_path_traced": "docs/adr/0001-record-architecture-decisions.md",
+   "creation_commit_sha": "b488691"
+  },
+  "ChelseaKR/family-greenhouse\tdocs/adr/0002-serverless-on-aws.md": {
+   "creation_path_traced": "docs/adr/0002-serverless-on-aws.md",
+   "creation_commit_sha": "b488691"
+  },
+  "ChelseaKR/family-greenhouse\tdocs/adr/0003-single-table-dynamodb.md": {
+   "creation_path_traced": "docs/adr/0003-single-table-dynamodb.md",
+   "creation_commit_sha": "b488691"
+  },
+  "ChelseaKR/family-greenhouse\tdocs/adr/0004-no-waf-on-http-api.md": {
+   "creation_path_traced": "docs/adr/0004-no-waf-on-http-api.md",
+   "creation_commit_sha": "b488691"
+  },
+  "CoderCodern/Interview-Copilot\t.claude/docs/adr/0001-record-architecture-decisions.md": {
+   "creation_path_traced": ".claude/docs/adr/0001-record-architecture-decisions.md",
+   "creation_commit_sha": "f2ec0ec"
+  },
+  "CoderCodern/Interview-Copilot\t.claude/docs/adr/0002-clean-vertical-slice-cqrs-dotnet.md": {
+   "creation_path_traced": ".claude/docs/adr/0002-clean-vertical-slice-cqrs-dotnet.md",
+   "creation_commit_sha": "f2ec0ec"
+  },
+  "davidtaing/feedback-board\tdocs/adr/0003-postgres-kysely-data-stack.md": {
+   "creation_path_traced": "docs/adr/0003-postgres-kysely-data-stack.md",
+   "creation_commit_sha": "82d76ed"
+  },
+  "DevCrazyCube/piper\tdocs/adr/0001-record-architecture-decisions.md": {
+   "creation_path_traced": "docs/adr/0001-record-architecture-decisions.md",
+   "creation_commit_sha": "fdbf2d610dbcb09a7fdd739c76472a6ff5dc46b8"
+  },
+  "DevCrazyCube/piper\tdocs/adr/0002-python-as-language.md": {
+   "creation_path_traced": "docs/adr/0002-python-as-language.md",
+   "creation_commit_sha": "fdbf2d610dbcb09a7fdd739c76472a6ff5dc46b8"
+  },
+  "DevCrazyCube/piper\tdocs/adr/0003-consolidated-postgres-timescaledb.md": {
+   "creation_path_traced": "docs/adr/0003-consolidated-postgres-timescaledb.md",
+   "creation_commit_sha": "fdbf2d610dbcb09a7fdd739c76472a6ff5dc46b8"
+  },
+  "DevCrazyCube/piper\tdocs/adr/0004-docker-compose-local.md": {
+   "creation_path_traced": "docs/adr/0004-docker-compose-local.md",
+   "creation_commit_sha": "fdbf2d610dbcb09a7fdd739c76472a6ff5dc46b8"
+  },
+  "DevCrazyCube/piper\tdocs/adr/0005-dual-ingest-batch-and-webhook.md": {
+   "creation_path_traced": "docs/adr/0005-dual-ingest-batch-and-webhook.md",
+   "creation_commit_sha": "fdbf2d610dbcb09a7fdd739c76472a6ff5dc46b8"
+  },
+  "DevCrazyCube/piper\tdocs/adr/0006-pseudonymisation-and-encryption.md": {
+   "creation_path_traced": "docs/adr/0006-pseudonymisation-and-encryption.md",
+   "creation_commit_sha": "fdbf2d610dbcb09a7fdd739c76472a6ff5dc46b8"
+  },
+  "DevCrazyCube/piper\tdocs/adr/0007-defer-frontend.md": {
+   "creation_path_traced": "docs/adr/0007-defer-frontend.md",
+   "creation_commit_sha": "fdbf2d610dbcb09a7fdd739c76472a6ff5dc46b8"
+  },
+  "DevCrazyCube/piper\tdocs/adr/0008-application-layer-encryption-key-custody.md": {
+   "creation_path_traced": "docs/adr/0008-application-layer-encryption-key-custody.md",
+   "creation_commit_sha": "fdbf2d610dbcb09a7fdd739c76472a6ff5dc46b8"
+  },
+  "DevCrazyCube/piper\tdocs/adr/0009-analytical-domains-and-linkage.md": {
+   "creation_path_traced": "docs/adr/0009-analytical-domains-and-linkage.md",
+   "creation_commit_sha": "fdbf2d610dbcb09a7fdd739c76472a6ff5dc46b8"
+  },
+  "DevCrazyCube/piper\tdocs/adr/0010-orchestration-run-model.md": {
+   "creation_path_traced": "docs/adr/0010-orchestration-run-model.md",
+   "creation_commit_sha": "fdbf2d610dbcb09a7fdd739c76472a6ff5dc46b8"
+  },
+  "DiamondLightSource/smartem-devtools\tdocs/decision-records/decisions/0020-openapi-spec-pipeline-and-version-compatibility.md": {
+   "creation_path_traced": "docs/decision-records/decisions/0020-openapi-spec-pipeline-and-version-compatibility.md",
+   "creation_commit_sha": "4e88b7a"
+  },
+  "dogmatiq/runkit\tdocs/adr/0005-homogeneous-cluster-nodes.md": {
+   "creation_path_traced": "docs/adr/0005-homogeneous-cluster-nodes.md",
+   "creation_commit_sha": "cdcee27d66427936925fc829879606c954d9eb77"
+  },
+  "Early-Bird-Solutions-LLC/PinballWizard\tdocs/adr/0047-anthropic-wif-github-actions.md": {
+   "creation_path_traced": "docs/adr/0047-anthropic-wif-github-actions.md",
+   "creation_commit_sha": "c5c5676"
+  },
+  "jimbery/receipt\tdocs/adr/0002-email-ingestion.md": {
+   "creation_path_traced": "docs/adr/0002-email-ingestion.md",
+   "creation_commit_sha": "0a338d1"
+  },
+  "jj8127/Appointment-Process\tadr/0003-theme-system-and-reusable-components.md": {
+   "creation_path_traced": "adr/0003-theme-system-and-reusable-components.md",
+   "creation_commit_sha": "0c95e8e"
+  },
+  "marcosdh1987/ml-python-base\tdocs/adr/0001-record-architecture-decisions.md": {
+   "creation_path_traced": "docs/adr/0001-record-architecture-decisions.md",
+   "creation_commit_sha": "410cceaec8d33a4d1083c8fd7c7128a17ccf6d9a"
+  },
+  "ranjithvettayan/method-red\tagent-frameworks/Decepticon/docs/adr/0001-record-architecture-decisions.md": {
+   "creation_path_traced": "agent-frameworks/Decepticon/docs/adr/0001-record-architecture-decisions.md",
+   "creation_commit_sha": "693c7f91bcf3a1b1da2bb677724676745cc76503"
+  },
+  "ranjithvettayan/method-red\tagent-frameworks/Decepticon/docs/adr/0002-pr-tiering-and-blast-radius.md": {
+   "creation_path_traced": "agent-frameworks/Decepticon/docs/adr/0002-pr-tiering-and-blast-radius.md",
+   "creation_commit_sha": "693c7f91bcf3a1b1da2bb677724676745cc76503"
+  },
+  "ranjithvettayan/method-red\tagent-frameworks/Decepticon/docs/adr/0003-ai-contributor-self-review.md": {
+   "creation_path_traced": "agent-frameworks/Decepticon/docs/adr/0003-ai-contributor-self-review.md",
+   "creation_commit_sha": "693c7f91bcf3a1b1da2bb677724676745cc76503"
+  },
+  "ranjithvettayan/method-red\tagent-frameworks/Decepticon/docs/adr/0004-zero-ai-slop-policy.md": {
+   "creation_path_traced": "agent-frameworks/Decepticon/docs/adr/0004-zero-ai-slop-policy.md",
+   "creation_commit_sha": "693c7f91bcf3a1b1da2bb677724676745cc76503"
+  },
+  "ranjithvettayan/method-red\tagent-frameworks/Decepticon/docs/adr/0005-bloodhound-via-bhce-rest-client.md": {
+   "creation_path_traced": "agent-frameworks/Decepticon/docs/adr/0005-bloodhound-via-bhce-rest-client.md",
+   "creation_commit_sha": "693c7f91bcf3a1b1da2bb677724676745cc76503"
+  },
+  "ranjithvettayan/method-red\tagent-frameworks/Decepticon/docs/adr/0006-agent-driven-container-lifecycle.md": {
+   "creation_path_traced": "agent-frameworks/Decepticon/docs/adr/0006-agent-driven-container-lifecycle.md",
+   "creation_commit_sha": "693c7f91bcf3a1b1da2bb677724676745cc76503"
+  },
+  "ranjithvettayan/method-red\tagent-frameworks/Decepticon/docs/adr/0007-ai-surface-technology-node.md": {
+   "creation_path_traced": "agent-frameworks/Decepticon/docs/adr/0007-ai-surface-technology-node.md",
+   "creation_commit_sha": "693c7f91bcf3a1b1da2bb677724676745cc76503"
+  },
+  "ranjithvettayan/method-red\tagent-frameworks/Decepticon/docs/adr/0008-skillogy-hard-acl-phase1a.md": {
+   "creation_path_traced": "agent-frameworks/Decepticon/docs/adr/0008-skillogy-hard-acl-phase1a.md",
+   "creation_commit_sha": "693c7f91bcf3a1b1da2bb677724676745cc76503"
+  },
+  "ranjithvettayan/method-red\tagent-frameworks/Decepticon/docs/adr/0009-hitl-langgraph-native-migration.md": {
+   "creation_path_traced": "agent-frameworks/Decepticon/docs/adr/0009-hitl-langgraph-native-migration.md",
+   "creation_commit_sha": "693c7f91bcf3a1b1da2bb677724676745cc76503"
+  },
+  "robsartin/contactotomy\tdocs/adr/0012-ui-testing-and-coverage-strategy.md": {
+   "creation_path_traced": "docs/adr/0012-ui-testing-and-coverage-strategy.md",
+   "creation_commit_sha": "55c7621"
+  },
+  "scottylabs-labrador/goldador\tdocs/adrs/0007-validator-as-a-service.md": {
+   "creation_path_traced": "docs/adrs/0007-validator-as-a-service.md",
+   "creation_commit_sha": "1107ca7"
+  },
+  "smcmahon42/build_bling_boilerplate\tdocs/decisions/0012-agent-neutral-router-and-client-adapters.md": {
+   "creation_path_traced": "docs/decisions/0012-agent-neutral-router-and-client-adapters.md",
+   "creation_commit_sha": "a7f1b8d"
+  },
+  "VTHoop/sandlot-game\tdocs/adr/0021-deterministic-run-advancement-and-bunt-model.md": {
+   "creation_path_traced": "docs/adr/0021-deterministic-run-advancement-and-bunt-model.md",
+   "creation_commit_sha": "42ab05b"
+  },
+  "yu-iskw/antigravity-agentkit\tdocs/adr/0004-native-platform-operations.md": {
+   "creation_path_traced": "docs/adr/0004-native-platform-operations.md",
+   "creation_commit_sha": "6b8dd37"
+  },
+  "yu-iskw/dbt-helpers\tdocs/adr/0033-multi-version-dbt-integration-testing.md": {
+   "creation_path_traced": "docs/adr/0033-multi-version-dbt-integration-testing.md",
+   "creation_commit_sha": "d63ba45"
+  },
+  "zeeshangulzar/apache_airflow\tdev/breeze/doc/adr/0003-bootstrapping-virtual-environment.md": {
+   "creation_path_traced": "dev/breeze/doc/adr/0003-bootstraping-virtual-environment.md",
+   "creation_commit_sha": "2c80aaab4f486688fa4b8e252e1147a5dfabee54"
+  },
+  "zyx-corporation/kazane\tdocs/adr/0001-record-architecture-decisions.md": {
+   "creation_path_traced": "docs/adr/0001-record-architecture-decisions.md",
+   "creation_commit_sha": "9d70f41ec7d26f3c713f602b7738a48eca16bc4f"
+  },
+  "zyx-corporation/kazane\tdocs/adr/0002-runtime-and-ui-targets.md": {
+   "creation_path_traced": "docs/adr/0002-runtime-and-ui-targets.md",
+   "creation_commit_sha": "9d70f41ec7d26f3c713f602b7738a48eca16bc4f"
+  },
+  "zyx-corporation/kazane\tdocs/adr/0003-context-card-as-primary-work-context.md": {
+   "creation_path_traced": "docs/adr/0003-context-card-as-primary-work-context.md",
+   "creation_commit_sha": "9d70f41ec7d26f3c713f602b7738a48eca16bc4f"
+  },
+  "zyx-corporation/kazane\tdocs/adr/0004-agent-organization-model.md": {
+   "creation_path_traced": "docs/adr/0004-agent-organization-model.md",
+   "creation_commit_sha": "9d70f41ec7d26f3c713f602b7738a48eca16bc4f"
+  },
+  "zyx-corporation/kazane\tdocs/adr/0005-written-handoff-and-evidence-log.md": {
+   "creation_path_traced": "docs/adr/0005-written-handoff-and-evidence-log.md",
+   "creation_commit_sha": "9d70f41ec7d26f3c713f602b7738a48eca16bc4f"
+  },
+  "zyx-corporation/kazane\tdocs/adr/0006-escalation-gate.md": {
+   "creation_path_traced": "docs/adr/0006-escalation-gate.md",
+   "creation_commit_sha": "9d70f41ec7d26f3c713f602b7738a48eca16bc4f"
+  },
+  "zyx-corporation/kazane\tdocs/adr/0007-license-strategy-provisional.md": {
+   "creation_path_traced": "docs/adr/0007-license-strategy-provisional.md",
+   "creation_commit_sha": "9d70f41ec7d26f3c713f602b7738a48eca16bc4f"
+  },
+  "zyx-corporation/kazane\tdocs/adr/0008-ui-strategy-web-first-cross-platform-gui-later.md": {
+   "creation_path_traced": "docs/adr/0008-ui-strategy-web-first-cross-platform-gui-later.md",
+   "creation_commit_sha": "9d70f41ec7d26f3c713f602b7738a48eca16bc4f"
+  },
+  "zyx-corporation/kazane\tdocs/adr/0009-branch-management.md": {
+   "creation_path_traced": "docs/adr/0009-branch-management.md",
+   "creation_commit_sha": "9d70f41ec7d26f3c713f602b7738a48eca16bc4f"
+  },
+  "zyx-corporation/kazane\tdocs/adr/0009-protected-main-branch.md": {
+   "creation_path_traced": "docs/adr/0009-protected-main-branch.md",
+   "creation_commit_sha": "9d70f41ec7d26f3c713f602b7738a48eca16bc4f"
+  },
+  "zyx-corporation/kazane\tdocs/adr/0010-prototype-first-tdd-t-rde-methodology.md": {
+   "creation_path_traced": "docs/adr/0010-prototype-first-tdd-t-rde-methodology.md",
+   "creation_commit_sha": "9d70f41ec7d26f3c713f602b7738a48eca16bc4f"
+  },
+  "zyx-corporation/kazane\tdocs/adr/0011-issue-linked-kanban-workflow.md": {
+   "creation_path_traced": "docs/adr/0011-issue-linked-kanban-workflow.md",
+   "creation_commit_sha": "9d70f41ec7d26f3c713f602b7738a48eca16bc4f"
+  },
+  "zyx-corporation/kazane\tdocs/adr/0012-tauri-first-runtime-including-ios-horizon.md": {
+   "creation_path_traced": "docs/adr/0012-tauri-first-runtime-including-ios-horizon.md",
+   "creation_commit_sha": "f5289a3678d09ed9ddda8299c5fbc9468d7b2718"
+  },
+  "zyx-corporation/kazane\tdocs/adr/0013-control-plane-and-privilege-boundary.md": {
+   "creation_path_traced": "docs/adr/0013-control-plane-and-privilege-boundary.md",
+   "creation_commit_sha": "f5289a3678d09ed9ddda8299c5fbc9468d7b2718"
+  },
+  "zyx-corporation/kazane\tdocs/adr/0014-remote-gui-and-external-auth.md": {
+   "creation_path_traced": "docs/adr/0014-remote-gui-and-external-auth.md",
+   "creation_commit_sha": "f5289a3678d09ed9ddda8299c5fbc9468d7b2718"
+  },
+  "aRustyDev/agents\tcontent/.context/legacy/memory/docs/tree-sitter/kvconf/adr/ADR-000-migration-from-monolithic-plan.md": {
+   "creation_path_traced": ".claude/nix/docs/tree-sitter/kvconf/adr/ADR-000-migration-from-monolithic-plan.md",
+   "creation_commit_sha": "157fc7fc64523e4c7fe4061cf0dceb73f2cb8991"
+  },
+  "aRustyDev/agents\tcontent/.context/legacy/memory/docs/tree-sitter/kvconf/adr/ADR-001-universal-key-value-parser.md": {
+   "creation_path_traced": ".claude/nix/docs/tree-sitter/kvconf/adr/ADR-001-universal-key-value-parser.md",
+   "creation_commit_sha": "157fc7fc64523e4c7fe4061cf0dceb73f2cb8991"
+  },
+  "aRustyDev/agents\tcontent/.context/legacy/memory/docs/tree-sitter/kvconf/adr/ADR-002-token-immediate-parser-fix.md": {
+   "creation_path_traced": ".claude/nix/docs/tree-sitter/kvconf/adr/ADR-002-token-immediate-parser-fix.md",
+   "creation_commit_sha": "157fc7fc64523e4c7fe4061cf0dceb73f2cb8991"
+  },
+  "aRustyDev/agents\tcontent/.context/legacy/memory/docs/tree-sitter/kvconf/adr/ADR-003-value-type-precedence.md": {
+   "creation_path_traced": ".claude/nix/docs/tree-sitter/kvconf/adr/ADR-003-value-type-precedence.md",
+   "creation_commit_sha": "157fc7fc64523e4c7fe4061cf0dceb73f2cb8991"
+  },
+  "aRustyDev/agents\tcontent/.context/legacy/memory/docs/tree-sitter/kvconf/adr/ADR-004-zed-extension-hash-sync.md": {
+   "creation_path_traced": ".claude/nix/docs/tree-sitter/kvconf/adr/ADR-004-zed-extension-hash-sync.md",
+   "creation_commit_sha": "157fc7fc64523e4c7fe4061cf0dceb73f2cb8991"
+  },
+  "aRustyDev/agents\tcontent/.context/legacy/tdd-guard/docs/adr/001-claude-session-subdirectory.md": {
+   "creation_path_traced": ".claude/nix/tdd-guard/docs/adr/001-claude-session-subdirectory.md",
+   "creation_commit_sha": "157fc7fc64523e4c7fe4061cf0dceb73f2cb8991"
+  },
+  "aRustyDev/agents\tcontent/.context/legacy/tdd-guard/docs/adr/002-secure-claude-binary-path.md": {
+   "creation_path_traced": ".claude/nix/tdd-guard/docs/adr/002-secure-claude-binary-path.md",
+   "creation_commit_sha": "157fc7fc64523e4c7fe4061cf0dceb73f2cb8991"
+  },
+  "aRustyDev/agents\tcontent/.context/legacy/tdd-guard/docs/adr/003-remove-configurable-data-directory.md": {
+   "creation_path_traced": ".claude/nix/tdd-guard/docs/adr/003-remove-configurable-data-directory.md",
+   "creation_commit_sha": "157fc7fc64523e4c7fe4061cf0dceb73f2cb8991"
+  },
+  "aRustyDev/agents\tcontent/.context/legacy/tdd-guard/docs/adr/004-monorepo-architecture.md": {
+   "creation_path_traced": ".claude/nix/tdd-guard/docs/adr/004-monorepo-architecture.md",
+   "creation_commit_sha": "157fc7fc64523e4c7fe4061cf0dceb73f2cb8991"
+  },
+  "aRustyDev/agents\tcontent/.context/legacy/tdd-guard/docs/adr/005-claude-project-dir-support.md": {
+   "creation_path_traced": ".claude/nix/tdd-guard/docs/adr/005-claude-project-dir-support.md",
+   "creation_commit_sha": "157fc7fc64523e4c7fe4061cf0dceb73f2cb8991"
+  },
+  "aRustyDev/agents\tcontent/.context/legacy/tdd-guard/docs/adr/006-phpunit-separate-repository.md": {
+   "creation_path_traced": ".claude/nix/tdd-guard/docs/adr/006-phpunit-separate-repository.md",
+   "creation_commit_sha": "157fc7fc64523e4c7fe4061cf0dceb73f2cb8991"
+  },
+  "aRustyDev/agents\tcontent/.context/legacy/tdd-guard/docs/adr/007-golangci-lint-path-support.md": {
+   "creation_path_traced": ".claude/nix/tdd-guard/docs/adr/007-golangci-lint-path-support.md",
+   "creation_commit_sha": "157fc7fc64523e4c7fe4061cf0dceb73f2cb8991"
+  },
+  "aRustyDev/agents\tcontent/skills/beads/adr/0001-bd-prime-as-source-of-truth.md": {
+   "creation_path_traced": "context/skills/beads/adr/0001-bd-prime-as-source-of-truth.md",
+   "creation_commit_sha": "f11f6defc32e5d697f1e5a599dad48e29a72371f"
+  },
+  "greatleee/greatlee-standard\tgreatlee-standard/tests/golden/be-only/docs/adr/0001-record-architecture-decisions.md": {
+   "creation_path_traced": "move-house-standard/tests/golden/be-only/docs/adr/0001-record-architecture-decisions.md",
+   "creation_commit_sha": "3f397d57c3f4c45f28adf281e88ee265046d294d"
+  },
+  "greatleee/greatlee-standard\tgreatlee-standard/tests/golden/full/docs/adr/0001-record-architecture-decisions.md": {
+   "creation_path_traced": "move-house-standard/tests/golden/full/docs/adr/0001-record-architecture-decisions.md",
+   "creation_commit_sha": "3f397d57c3f4c45f28adf281e88ee265046d294d"
+  }
+ },
+ "sep02": {
+  "BrighterCommand/Darker\tdocs/adr/0016-pipeline-attribute-memoization.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "bce5409f545fa14d8d63649fcc6592dbaae0a54f"
+  },
+  "opendatahub-io/odh-dashboard\tpackages/gen-ai/docs/adr/0005-authentication-authorization-architecture.md": {
+   "Lifecycle classification": "Pre-existing ADR; no earlier AI creation/touch found in the available path history",
+   "Earlier AI create/touch SHA": null
+  },
+  "opendatahub-io/odh-dashboard\tpackages/gen-ai/docs/adr/0010-kubernetes-client-architecture.md": {
+   "Lifecycle classification": "Pre-existing ADR; no earlier AI creation/touch found in the available path history",
+   "Earlier AI create/touch SHA": null
+  },
+  "briandenicola/password-vault\tdocs/adr/0005-entra-server-side-auth.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "f2fe6836f6e2bc712c25a8d1b049f5a91e918c2f"
+  },
+  "defenseunicorns/pepr\tadr/0003-use-commonjs-and-esbuild.md": {
+   "Lifecycle classification": "Pre-existing ADR; the linked commit is the first AI-attributed hit in the available path history",
+   "Earlier AI create/touch SHA": "9bc9963227284e11ca503072607c3f4c64b2c82e"
+  },
+  "openstack-experimental/keystone\tdoc/src/adr/0016-v2-raft-storage.md": {
+   "Lifecycle classification": "Pre-existing ADR; the linked commit is the first AI-attributed hit in the available path history",
+   "Earlier AI create/touch SHA": "1e238a3c09c66bebe7680e4b554de7a4fad6afbf"
+  },
+  "openstack-experimental/keystone\tdoc/src/adr/0021-api-key-scim.md": {
+   "Lifecycle classification": "Pre-existing ADR; the linked commit is the first AI-attributed hit in the available path history",
+   "Earlier AI create/touch SHA": "1e238a3c09c66bebe7680e4b554de7a4fad6afbf"
+  },
+  "openstack-experimental/keystone\tdoc/src/adr/0022-rate-limiting.md": {
+   "Lifecycle classification": "Pre-existing ADR; the linked commit is the first AI-attributed hit in the available path history",
+   "Earlier AI create/touch SHA": "1e238a3c09c66bebe7680e4b554de7a4fad6afbf"
+  },
+  "openstack-experimental/keystone\tdoc/src/adr/0023-audit.md": {
+   "Lifecycle classification": "Pre-existing ADR; the linked commit is the first AI-attributed hit in the available path history",
+   "Earlier AI create/touch SHA": "1e238a3c09c66bebe7680e4b554de7a4fad6afbf"
+  },
+  "gilesknap/tpi-k3s-ansible\tdocs/explanations/decisions/0009-longhorn-exclude-workstations.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "50575e8"
+  },
+  "sbomify/sbomify-action\tdocs/adr/0002-plugin-architecture.md": {
+   "Lifecycle classification": "Pre-existing ADR; the linked commit is the first AI-attributed hit in the available path history",
+   "Earlier AI create/touch SHA": "d85b474b44c6818e41c0b52253632df662d83960"
+  },
+  "andreibesleaga/GABBE\tdocs/adr/0002-brain-active-inference-runtime.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "347c3a2e1286b12721c3027a08ab3b20e22c82e9"
+  },
+  "aRustyDev/agents\tdocs/src/adr/0003-plugin-build-system.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "cb8267f85b33a32e34e16160ac251736532256a1"
+  },
+  "aRustyDev/agents\tdocs/src/adr/005-file-watching.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "a5ff60f15f92acce7b316cf7f7e61f3917a97017"
+  },
+  "aRustyDev/agents\tdocs/src/adr/009-slash-command-file-organization.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "81e9bc24685b56bbde092868ea9c9bb0538a9d66"
+  },
+  "aRustyDev/agents\tdocs/src/adr/010-nested-context-directory-structure.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "19507248f96667ee3c0dece36797d484d17022e9"
+  },
+  "aRustyDev/agents\tdocs/src/adr/014-external-skill-tracking-architecture.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "2632fac440443e0859fd290bc139383e9b1560e1"
+  },
+  "aRustyDev/agents\tdocs/src/adr/019-append-only-error-log.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "41321d7112b06d6b43421374d1c006171cd41455"
+  },
+  "lucasrcezimbra/missas.com.br\tdocs/architecture/decisions/0003-geocoding-without-spatialite.md": {
+   "Lifecycle classification": "Pre-existing ADR; the linked commit is the first AI-attributed hit in the available path history",
+   "Earlier AI create/touch SHA": "beec5cbe906540e8f3e948982bc96ddec02484ef"
+  },
+  "cameronzucker/tuxlink\tdocs/adr/0020-linux-support-matrix-and-build-floor.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "7148b60776c436b60b22239e856f620f5bdc0deb"
+  },
+  "hiroshiyui/5thPlanet\tdoc/adr/0019-gpu-is-presentation-only.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "b54f1cf75c599e205e052ad2f2d99abd20fca55f"
+  },
+  "qnbs/CannaGuide-2025\tdocs/adr/0012-desktop-tauri-architecture.md": {
+   "Lifecycle classification": "Pre-existing ADR; the linked commit is the first AI-attributed hit in the available path history",
+   "Earlier AI create/touch SHA": "86a0fd5b2f5f14acdba8b6110b503b3534170427"
+  },
+  "yu-iskw/sqlfluff-complexity\tdocs/adr/0007-lint-scope-vs-report-file-rollup.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "e0d3b5acd4e6ae098e867b883b708de77162fcb4"
+  },
+  "codeheadsystems/pk-auth\tdocs/adr/0019-crypto-agility-post-quantum-readiness.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "a85c3097893b34cca3172c79d06495975ddb594f"
+  },
+  "dbroeglin/github-copilot-lab\tdocs/adr/0003-sqlite-derived-index.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "024c9eb65be778595893f1055299d94644d8528b"
+  },
+  "dbroeglin/github-copilot-lab\tdocs/adr/0019-use-nested-pier-run-directories.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "2543699f316e2f722d939f9a6bc96ba805fd50f5"
+  },
+  "ma3u/hackathon-spark\tdocs/adr/0016-design-system-material-bundestag.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "858d5689f0a4c82c0d14a769e9dedf1aa0564378"
+  },
+  "tweag/cardano-cls\tdoc/adr/0003-move-to-raw-mempack-use-instead-of-binary.md": {
+   "Lifecycle classification": "Pre-existing ADR; the linked commit is the first AI-attributed hit in the available path history",
+   "Earlier AI create/touch SHA": "9bc522413395fdb59081cfe4ce1b9ac10fb5ca0c"
+  },
+  "5queezer/aver\tdoc/adr/0020-browser-consent-flow-replacing-approval-token.md": {
+   "Lifecycle classification": "Pre-existing ADR; the linked commit is the first AI-attributed hit in the available path history",
+   "Earlier AI create/touch SHA": "0f243f0b8ee5e30d79e061e51c394b99f5da696b"
+  },
+  "div0rce/quant-systems-lab\tdocs/adr/0002-independent-ocaml-oracle.md": {
+   "Lifecycle classification": "Pre-existing ADR; no earlier AI creation/touch found in the available path history",
+   "Earlier AI create/touch SHA": null
+  },
+  "div0rce/quant-systems-lab\tdocs/adr/0003-golden-fixture-regeneration.md": {
+   "Lifecycle classification": "Pre-existing ADR; no earlier AI creation/touch found in the available path history",
+   "Earlier AI create/touch SHA": null
+  },
+  "div0rce/quant-systems-lab\tdocs/adr/0004-deterministic-shrinker.md": {
+   "Lifecycle classification": "Pre-existing ADR; no earlier AI creation/touch found in the available path history",
+   "Earlier AI create/touch SHA": null
+  },
+  "div0rce/quant-systems-lab\tdocs/adr/0007-constrained-perf-artifacts-are-partial-evidence.md": {
+   "Lifecycle classification": "ADR touched earlier by AI; the earlier creator is not confirmed to be AI",
+   "Earlier AI create/touch SHA": "ded6e80d8bb63c3bbaa42ce6c16e6db728400120"
+  },
+  "div0rce/quant-systems-lab\tdocs/adr/0008-socket-evidence-loopback-constrained-epoll-deferred.md": {
+   "Lifecycle classification": "Pre-existing ADR; no earlier AI creation/touch found in the available path history",
+   "Earlier AI create/touch SHA": null
+  },
+  "div0rce/quant-systems-lab\tdocs/adr/0011-event-log-durability-modes-and-tail-repair.md": {
+   "Lifecycle classification": "Pre-existing ADR; no earlier AI creation/touch found in the available path history",
+   "Earlier AI create/touch SHA": null
+  },
+  "Joymerrevent/porters-connect\tdocs/adr/0038-read-query-surface-impl.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "e60048bc45af31340c700ceda8667508ca3248ef"
+  },
+  "nikitakarpei/yacy-rwi-node\tyacynode/doc/adr/0006-use-testcontainers-for-e2e-tests.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "e8f247a"
+  },
+  "nikitakarpei/yacy-rwi-node\tyacynode/doc/adr/0007-use-nats-jetstream-for-node-crawler-queue.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "e8f247a"
+  },
+  "sedarged/TikTok-AI-Agent\tdocs/adr/0003-render-pipeline-design.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "012f1ada1dade0f67fbde4624cc04bf4782ccec4"
+  },
+  "ChelseaKR/family-greenhouse\tdocs/adr/0001-record-architecture-decisions.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "b488691bce86a5f4b6f0c674106f5cd381131c35"
+  },
+  "ChelseaKR/family-greenhouse\tdocs/adr/0002-serverless-on-aws.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "b488691bce86a5f4b6f0c674106f5cd381131c35"
+  },
+  "ChelseaKR/family-greenhouse\tdocs/adr/0003-single-table-dynamodb.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "b488691bce86a5f4b6f0c674106f5cd381131c35"
+  },
+  "ChelseaKR/family-greenhouse\tdocs/adr/0004-no-waf-on-http-api.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "b488691bce86a5f4b6f0c674106f5cd381131c35"
+  },
+  "davidtaing/feedback-board\tdocs/adr/0003-postgres-kysely-data-stack.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "82d76edc5d4dd9d19fb3b304da3b4d186af46200"
+  },
+  "dogmatiq/runkit\tdocs/adr/0005-homogeneous-cluster-nodes.md": {
+   "Lifecycle classification": "Pre-existing ADR; path-history ordering unverified",
+   "Earlier AI create/touch SHA": null
+  },
+  "jimbery/receipt\tdocs/adr/0002-email-ingestion.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "0a338d12d2b2573304a04a829f39dc157fce802e"
+  },
+  "jj8127/Appointment-Process\tadr/0003-theme-system-and-reusable-components.md": {
+   "Lifecycle classification": "Pre-existing ADR; the linked commit is the first AI-attributed hit in the available path history",
+   "Earlier AI create/touch SHA": "2f69ca43bbe151f97fdd32ceab76fa19035e6ae1"
+  },
+  "robsartin/contactotomy\tdocs/adr/0012-ui-testing-and-coverage-strategy.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "55c762132b60b10a3f8b4b0de6fbbeb5e457cb1d"
+  },
+  "scottylabs-labrador/goldador\tdocs/adrs/0007-validator-as-a-service.md": {
+   "Lifecycle classification": "Pre-existing ADR; the linked commit is the first AI-attributed hit in the available path history",
+   "Earlier AI create/touch SHA": "8b868666adc3fd03cdcb3add1bddd707c2500794"
+  },
+  "VTHoop/sandlot-game\tdocs/adr/0021-deterministic-run-advancement-and-bunt-model.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "42ab05b47a2c0b252688d3cd3e12a04c9c08609f"
+  },
+  "yu-iskw/antigravity-agentkit\tdocs/adr/0004-native-platform-operations.md": {
+   "Lifecycle classification": "ADR created earlier by AI; the linked commit is a later AI modification",
+   "Earlier AI create/touch SHA": "6b8dd3741877f9b28a9c1674411097ee73ef44c1"
+  },
+  "yu-iskw/dbt-helpers\tdocs/adr/0033-multi-version-dbt-integration-testing.md": {
+   "Lifecycle classification": "Pre-existing ADR; the linked commit is the first AI-attributed hit in the available path history",
+   "Earlier AI create/touch SHA": "bce0d01afbf426b7eb703145a12174aea3ec2513"
+  }
+ },
+ "jul31": {
+  "5queezer/chartgen\twebsite/src/content/docs/decisions/0007-complete-series-serialization.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "a87c9dead64a37e79e430fffd189bba00d6e7e82"
+  },
+  "agent-pen/pen\tdoc/adr/0048-avoid-buildkit-cold-start-between-test-runs.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "4b072886cdc36a1a1bd6b1fceb80a14b18c25fb0"
+  },
+  "alex-place/lantern-os\tdocs/adr/0009-one-routing-contract-cloud-primary-coding.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "091ca074557d5cbb90f93e759586d575f852a8f0"
+  },
+  "alexksbr/ai-pair-architect-demo\tdocs/adr/0001-record-architecture-decisions.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "d77a1d15f94656f7bf5dddca10c87942e9477b64"
+  },
+  "alexksbr/ai-pair-architect-demo\tdocs/adr/0002-bounded-contexts-as-top-level-modules.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "d77a1d15f94656f7bf5dddca10c87942e9477b64"
+  },
+  "alexksbr/ai-pair-architect-demo\tdocs/adr/0003-layered-architecture-within-a-context.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "d77a1d15f94656f7bf5dddca10c87942e9477b64"
+  },
+  "alexksbr/ai-pair-architect-demo\tdocs/adr/0004-cross-context-integration-via-acl-and-events.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "d77a1d15f94656f7bf5dddca10c87942e9477b64"
+  },
+  "alexksbr/ai-pair-architect-demo\tdocs/adr/0005-minimal-shared-kernel.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "d77a1d15f94656f7bf5dddca10c87942e9477b64"
+  },
+  "alexksbr/ai-pair-architect-demo\tdocs/adr/template.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "d77a1d15f94656f7bf5dddca10c87942e9477b64"
+  },
+  "axelberggren-gif/health-data-hub\tdocs/decisions/0005-reviewer-uses-anthropic-api-key.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "6c5469bedb13923b1f858d44cb55f3bc2427fe7c"
+  },
+  "bvdmitri/cpp-python-template-2026\tdocs/design/adr/0001-record-architecture-decisions.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f875f009931d3f2c473ebd449df714ea8cb5206e"
+  },
+  "bvdmitri/cpp-python-template-2026\tdocs/design/adr/template.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f875f009931d3f2c473ebd449df714ea8cb5206e"
+  },
+  "bytesbrains/ieye\tdocs/adr/0000-template.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "c4eb5fc004fd2b43bd5c52af976ff97f18c502d6"
+  },
+  "bytesbrains/ieye\tdocs/adr/0001-record-architecture-decisions.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "c4eb5fc004fd2b43bd5c52af976ff97f18c502d6"
+  },
+  "cassiobotaro/skills\tadr-workspace/evals/files/session-service/doc/adr/0001-record-architecture-decisions.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tadr-workspace/evals/files/session-service/doc/adr/0002-store-sessions-in-redis.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tadr-workspace/evals/files/session-service/doc/adr/0003-use-grpc-for-internal-communication.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tadr-workspace/iteration-1/eval-1-clear-decision-fresh-repo/with_skill/outputs/doc/adr/0001-record-architecture-decisions.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tadr-workspace/iteration-1/eval-1-clear-decision-fresh-repo/with_skill/outputs/doc/adr/0002-use-postgresql-for-the-orders-service.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tadr-workspace/iteration-1/eval-1-clear-decision-fresh-repo/with_skill/run/doc/adr/0001-record-architecture-decisions.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tadr-workspace/iteration-1/eval-1-clear-decision-fresh-repo/with_skill/run/doc/adr/0002-use-postgresql-for-the-orders-service.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tadr-workspace/iteration-1/eval-1-clear-decision-fresh-repo/without_skill/outputs/docs/adr/0001-use-postgresql-instead-of-mongodb-for-the-orders-service.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tadr-workspace/iteration-1/eval-1-clear-decision-fresh-repo/without_skill/run/docs/adr/0001-use-postgresql-instead-of-mongodb-for-the-orders-service.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tadr-workspace/iteration-1/eval-2-vague-decision-asks/without_skill/outputs/docs/adr/0001-replace-redis.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tadr-workspace/iteration-1/eval-2-vague-decision-asks/without_skill/run/docs/adr/0001-replace-redis.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tadr-workspace/iteration-1/eval-3-supersede-existing-adr/with_skill/outputs/doc/adr/0002-store-sessions-in-redis.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tadr-workspace/iteration-1/eval-3-supersede-existing-adr/with_skill/outputs/doc/adr/0004-use-stateless-jwt-sessions.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tadr-workspace/iteration-1/eval-3-supersede-existing-adr/with_skill/run/doc/adr/0001-record-architecture-decisions.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tadr-workspace/iteration-1/eval-3-supersede-existing-adr/with_skill/run/doc/adr/0002-store-sessions-in-redis.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tadr-workspace/iteration-1/eval-3-supersede-existing-adr/with_skill/run/doc/adr/0003-use-grpc-for-internal-communication.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tadr-workspace/iteration-1/eval-3-supersede-existing-adr/with_skill/run/doc/adr/0004-use-stateless-jwt-sessions.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tadr-workspace/iteration-1/eval-3-supersede-existing-adr/without_skill/outputs/doc/adr/0002-store-sessions-in-redis.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tadr-workspace/iteration-1/eval-3-supersede-existing-adr/without_skill/outputs/doc/adr/0004-use-stateless-jwt-tokens-for-sessions.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tadr-workspace/iteration-1/eval-3-supersede-existing-adr/without_skill/run/doc/adr/0001-record-architecture-decisions.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tadr-workspace/iteration-1/eval-3-supersede-existing-adr/without_skill/run/doc/adr/0002-store-sessions-in-redis.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tadr-workspace/iteration-1/eval-3-supersede-existing-adr/without_skill/run/doc/adr/0003-use-grpc-for-internal-communication.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tadr-workspace/iteration-1/eval-3-supersede-existing-adr/without_skill/run/doc/adr/0004-use-stateless-jwt-tokens-for-sessions.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tadr/skills/adr/NOTICE.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tadr/skills/adr/SKILL.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tadr/skills/adr/references/examples.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tstructurizr-workspace/evals/files/legacy-billing/docs/adr/0001-registrar-decisoes-de-arquitetura.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tstructurizr-workspace/evals/files/legacy-billing/docs/adr/0002-usar-postgresql-como-banco-de-dados.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tstructurizr-workspace/evals/files/legacy-billing/docs/adr/0003-processamento-assincrono-com-rabbitmq.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tstructurizr-workspace/iteration-1/eval-3-evolve-existing/with_skill/outputs/docs/adr/0001-registrar-decisoes-de-arquitetura.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tstructurizr-workspace/iteration-1/eval-3-evolve-existing/with_skill/outputs/docs/adr/0002-usar-postgresql-como-banco-de-dados.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tstructurizr-workspace/iteration-1/eval-3-evolve-existing/with_skill/outputs/docs/adr/0003-processamento-assincrono-com-rabbitmq.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tstructurizr-workspace/iteration-1/eval-3-evolve-existing/without_skill/outputs/docs/adr/0001-registrar-decisoes-de-arquitetura.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tstructurizr-workspace/iteration-1/eval-3-evolve-existing/without_skill/outputs/docs/adr/0002-usar-postgresql-como-banco-de-dados.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tstructurizr-workspace/iteration-1/eval-3-evolve-existing/without_skill/outputs/docs/adr/0003-processamento-assincrono-com-rabbitmq.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tstructurizr-workspace/iteration-2/eval-3-evolve-existing/with_skill/outputs/docs/adr/0001-registrar-decisoes-de-arquitetura.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tstructurizr-workspace/iteration-2/eval-3-evolve-existing/with_skill/outputs/docs/adr/0002-usar-postgresql-como-banco-de-dados.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tstructurizr-workspace/iteration-2/eval-3-evolve-existing/with_skill/outputs/docs/adr/0003-processamento-assincrono-com-rabbitmq.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tstructurizr-workspace/iteration-3/eval-3-evolve-existing/with_skill/outputs/docs/adr/0001-registrar-decisoes-de-arquitetura.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tstructurizr-workspace/iteration-3/eval-3-evolve-existing/with_skill/outputs/docs/adr/0002-usar-postgresql-como-banco-de-dados.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "cassiobotaro/skills\tstructurizr-workspace/iteration-3/eval-3-evolve-existing/with_skill/outputs/docs/adr/0003-processamento-assincrono-com-rabbitmq.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "f5418e08c5db6d76254c8a09ea0a09b91bb8114d"
+  },
+  "davidtaing/feedback-board\tdocs/adr/0004-switch-runtime-to-node.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "3ee3d01b39da8d1f21c070f6a4bd02361627fc30"
+  },
+  "dbroeglin/github-copilot-lab\tdocs/adr/0020-remove-legacy-native-harness.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "50e47d9e380904f0f5b5404300f8b5e64a8b72a9"
+  },
+  "defenseunicorns/pepr\tadr/0021-typescript-module-resolution.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "9bc9963227284e11ca503072607c3f4c64b2c82e"
+  },
+  "dimasusername/conduit\tdoc/adr/0001-record-architecture-decisions.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "5103063c1a784ef7f95a479610995bbb5fb1a871"
+  },
+  "dimasusername/conduit\tdoc/adr/0002-zero-dependency-core.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "5103063c1a784ef7f95a479610995bbb5fb1a871"
+  },
+  "dimasusername/conduit\tdoc/adr/template.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "5103063c1a784ef7f95a479610995bbb5fb1a871"
+  },
+  "epr-ds/nutriplan\tdocs/architecture/adr/0004-backend-service-framework.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "c82f06b38f137c361162a3cf636314a94b8726db"
+  },
+  "fabianmagrini/curator\tdocs/adr/0015-copilotkit-gemini-runtime.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "dfa9cb92cda0409f710945ac31623465770195a5"
+  },
+  "fatihkutlar/architecture-playbook\tadrs/0001-record-architecture-decisions.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "665fa7d85c838cb834392311d18d49c286018cb3"
+  },
+  "fatihkutlar/architecture-playbook\tadrs/0002-event-broker-selection.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "665fa7d85c838cb834392311d18d49c286018cb3"
+  },
+  "fatihkutlar/architecture-playbook\tadrs/0003-tenant-isolation-strategy.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "665fa7d85c838cb834392311d18d49c286018cb3"
+  },
+  "fatihkutlar/architecture-playbook\tadrs/0004-llm-router-strategy.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "665fa7d85c838cb834392311d18d49c286018cb3"
+  },
+  "fatihkutlar/architecture-playbook\tadrs/0005-workflow-engine-selection.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "665fa7d85c838cb834392311d18d49c286018cb3"
+  },
+  "fatihkutlar/architecture-playbook\tadrs/template.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "665fa7d85c838cb834392311d18d49c286018cb3"
+  },
+  "friends-innovation-lab/qori-slack\tdocs/architecture-decisions/0026-pii-scrubbing-at-ingestion.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "e941a39a8e0088d5b2ccd874fe39d626d14c492d"
+  },
+  "geraldyeo/are-you-dead-yet\tADR/0003-use-ios-contacts-picker-for-emergency-contacts.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "3eae44091036278fbdd1a8a1af3666d10ceecb18"
+  },
+  "hoangtien07/bravo\tdocs/adr/0010-agent-loop-architecture.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "267aec22648be195bb534934977125b682834db9"
+  },
+  "hoangtien07/bravo\tdocs/adr/0011-egress-classification-audit.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "267aec22648be195bb534934977125b682834db9"
+  },
+  "hoangtien07/bravo\tdocs/adr/0012-verify-gate-number-integrity.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "267aec22648be195bb534934977125b682834db9"
+  },
+  "hoangtien07/bravo\tdocs/adr/0013-reuse-vs-rewrite-and-topology.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "267aec22648be195bb534934977125b682834db9"
+  },
+  "hujianbest/harness-flow\texamples/writeonce/docs/adr/0001-record-architecture-decisions.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "6b550ca2b6aa6c5b9de3d867f6f945fc8ef48a66"
+  },
+  "hujianbest/harness-flow\texamples/writeonce/docs/adr/0002-platform-adapter-as-extension-boundary.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "6b550ca2b6aa6c5b9de3d867f6f945fc8ef48a66"
+  },
+  "hujianbest/harness-flow\texamples/writeonce/docs/adr/0003-no-real-network-in-walking-skeleton.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "6b550ca2b6aa6c5b9de3d867f6f945fc8ef48a66"
+  },
+  "linagora/twake-on-matrix\tdocs/adr/0036-release-process.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "5756c378f2062d5dd67f1254c8b927e96764cade"
+  },
+  "lllloo/bmad-project\tdocs/decisions/0012-token-version-epoch-global-revocation.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "4d8e63250a2d68b6ef7a8fef1ef6de52cd761433"
+  },
+  "loredunk/ccoach\tdocs/adr/0061-deepinsight-blind-spot-coach-redefinition.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "1ee7fc3bbbf9255c96a2e88eae39b5b4f9519674"
+  },
+  "marekmelichar/notes\tdocs/adr/0001-record-architecture-decisions.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "4f4f97ba8c1cd64fde7a6d9bdea61fe78ac14622"
+  },
+  "marekmelichar/notes\tdocs/adr/0002-redux-toolkit-not-rtk-query.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "4f4f97ba8c1cd64fde7a6d9bdea61fe78ac14622"
+  },
+  "marekmelichar/notes\tdocs/adr/0003-tiptap-for-rich-text.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "4f4f97ba8c1cd64fde7a6d9bdea61fe78ac14622"
+  },
+  "marekmelichar/notes\tdocs/adr/0004-keycloak-for-auth.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "4f4f97ba8c1cd64fde7a6d9bdea61fe78ac14622"
+  },
+  "marekmelichar/notes\tdocs/adr/0005-no-offline-first-sync.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "4f4f97ba8c1cd64fde7a6d9bdea61fe78ac14622"
+  },
+  "marekmelichar/notes\tdocs/adr/0006-pwa-via-vite-plugin-pwa.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "4f4f97ba8c1cd64fde7a6d9bdea61fe78ac14622"
+  },
+  "marekmelichar/notes\tdocs/adr/0007-feature-folders-frontend.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "4f4f97ba8c1cd64fde7a6d9bdea61fe78ac14622"
+  },
+  "marekmelichar/notes\tdocs/adr/0008-soft-delete-with-trash-cleanup.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "4f4f97ba8c1cd64fde7a6d9bdea61fe78ac14622"
+  },
+  "marekmelichar/notes\tdocs/adr/_template.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "4f4f97ba8c1cd64fde7a6d9bdea61fe78ac14622"
+  },
+  "markkovari/monorail\tdocs/adr/0012-athlete-profile-weight-adjusted-calories.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "6b4d18cdaac08cdb7148a1ca344c729fee74335c"
+  },
+  "markkovari/monorail\tdocs/adr/0013-concept2-logbook-import.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "6b4d18cdaac08cdb7148a1ca344c729fee74335c"
+  },
+  "meridianhub/meridian\tdocs/adr/0006-tilt-local-development.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "aecd119838ec18a1d011e36eeb04b5c11243df8a"
+  },
+  "mikitahimpel/angular-lynx\tdocs/adr/0009-depend-on-lynx-js-react-snapshot-runtime.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "c8207e3c35567a45b91dccd21e94f3600e2f0c56"
+  },
+  "nasrulhazim/agent-skills\tdocs/01-architecture/adr/0001-record-architecture-decisions.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "deead86ccd7cea31b17f9c52b9bcbff2c7935a4e"
+  },
+  "oleksandr-labs/aegis-lens\tdocs/adr/0000-template.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "c47ca7664ab6c1d6d4d41e1b3702736f83068ffd"
+  },
+  "oleksandr-labs/aegis-lens\tdocs/adr/0001-record-architecture-decisions.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "c47ca7664ab6c1d6d4d41e1b3702736f83068ffd"
+  },
+  "r3dlex/skills\tdocs/adr/ADR-0001-record-architecture-decisions.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "a20ad2a00c9a0f909a7cacc2cfcf7dc38d4ef59b"
+  },
+  "r3dlex/skills\tdocs/adr/ADR-TEMPLATE.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "a20ad2a00c9a0f909a7cacc2cfcf7dc38d4ef59b"
+  },
+  "r3dlex/skills\treference/golden-skills/docs/adr/ADR-0001-record-architecture-decisions.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "a20ad2a00c9a0f909a7cacc2cfcf7dc38d4ef59b"
+  },
+  "r3dlex/skills\treference/golden-skills/docs/adr/ADR-TEMPLATE.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "a20ad2a00c9a0f909a7cacc2cfcf7dc38d4ef59b"
+  },
+  "robsartin/maintainly\tdoc/adr/0029-css-linting-with-stylelint.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "82804d8e5614ab51db890c8b87a515031cdeb129"
+  },
+  "sbomify/sbomify-action\tdocs/adr/0001-record-architecture-decisions.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "d85b474b44c6818e41c0b52253632df662d83960"
+  },
+  "sbomify/sbomify-action\tdocs/adr/0002-plugin-architecture.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "d85b474b44c6818e41c0b52253632df662d83960"
+  },
+  "seandavi/metacurator\tdocs/adr/0009-self-describing-output-linkml-first.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "973059fc2bc154848402a9f14125bbd17e009146"
+  },
+  "shandianxiao218/suishi_north_backtest\tdocs/adr/0003-dual-agent-development-workflow.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "61f4b283e845ee28a7688771d396e6b305fc2ef9"
+  },
+  "smcmahon42/build_bling_boilerplate\tdocs/decisions/0012-agent-neutral-router-and-client-adapters.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "a7f1b8d834de0df46fa03dd85a1f54db0df6ef99"
+  },
+  "tomergee/harness-weaver\tdocs/adr/0003-sandbox-lifecycle.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "cc94cb3ec1f94eca881a4e95759f3bc4cdff2527"
+  },
+  "unarbos/arbos\tdocs/adr/0041-matrix-room-is-the-session.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "e51033f2ad82e6f62938fd5c8d9b6a9c6dad7961"
+  },
+  "win2cot/tasks-webapi\tdocs/adr/0040-onboarding-registration-and-credential-provisioning.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "ab48111848df03ab2fff257969fc2618f4aecaca"
+  },
+  "yu-iskw/sqlfluff-complexity\tdocs/adr/0007-lint-scope-vs-report-file-rollup.md": {
+   "Lifecycle tag": "AI at creation only",
+   "ADR creation commit": "e0d3b5acd4e6ae098e867b883b708de77162fcb4"
+  },
+  "Repository\tADR file path": {
+   "Lifecycle tag": "Lifecycle tag",
+   "ADR creation commit": "ADR creation commit"
+  },
+  "briandenicola/password-vault\tdocs/adr/0005-entra-server-side-auth.md": {
+   "Lifecycle tag": "creation + later AI",
+   "ADR creation commit": "f2fe6836f6e2bc712c25a8d1b049f5a91e918c2f"
+  },
+  "cameronzucker/tuxlink\tdocs/adr/0020-linux-support-matrix-and-build-floor.md": {
+   "Lifecycle tag": "creation + later AI",
+   "ADR creation commit": "7148b60776c436b60b22239e856f620f5bdc0deb"
+  },
+  "codeheadsystems/pk-auth\tdocs/adr/0019-crypto-agility-post-quantum-readiness.md": {
+   "Lifecycle tag": "creation + later AI",
+   "ADR creation commit": "a85c3097893b34cca3172c79d06495975ddb594f"
+  },
+  "davidtaing/feedback-board\tdocs/adr/0003-postgres-kysely-data-stack.md": {
+   "Lifecycle tag": "creation + later AI",
+   "ADR creation commit": "82d76edc5d4dd9d19fb3b304da3b4d186af46200"
+  },
+  "dbroeglin/github-copilot-lab\tdocs/adr/0003-sqlite-derived-index.md": {
+   "Lifecycle tag": "creation + later AI",
+   "ADR creation commit": "024c9eb65be778595893f1055299d94644d8528b"
+  },
+  "dbroeglin/github-copilot-lab\tdocs/adr/0019-use-nested-pier-run-directories.md": {
+   "Lifecycle tag": "creation + later AI",
+   "ADR creation commit": "2543699f316e2f722d939f9a6bc96ba805fd50f5"
+  },
+  "iamacoffeepot/aether\tdocs/adr/0122-split-actor-identity-from-runtime-state.md": {
+   "Lifecycle tag": "creation + later AI",
+   "ADR creation commit": "71a67219aae1c85c7d909ab4795aa5c729ce1d68"
+  },
+  "jimbery/receipt\tdocs/adr/0002-email-ingestion.md": {
+   "Lifecycle tag": "creation + later AI",
+   "ADR creation commit": "0a338d12d2b2573304a04a829f39dc157fce802e"
+  },
+  "ma3u/hackathon-spark\tdocs/adr/0016-design-system-material-bundestag.md": {
+   "Lifecycle tag": "creation + later AI",
+   "ADR creation commit": "858d5689f0a4c82c0d14a769e9dedf1aa0564378"
+  },
+  "robsartin/contactotomy\tdocs/adr/0012-ui-testing-and-coverage-strategy.md": {
+   "Lifecycle tag": "creation + later AI",
+   "ADR creation commit": "55c762132b60b10a3f8b4b0de6fbbeb5e457cb1d"
+  },
+  "yu-iskw/antigravity-agentkit\tdocs/adr/0004-native-platform-operations.md": {
+   "Lifecycle tag": "creation + later AI",
+   "ADR creation commit": "6b8dd3741877f9b28a9c1674411097ee73ef44c1"
+  },
+  "5queezer/aver\tdoc/adr/0020-browser-consent-flow-replacing-approval-token.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "39457e0afdf122ab377b877dbc1f651feabc470e"
+  },
+  "defenseunicorns/pepr\tadr/0003-use-commonjs-and-esbuild.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "87de7a8132f64740248950d22c754225a06109a7"
+  },
+  "div0rce/quant-systems-lab\tdocs/adr/0002-independent-ocaml-oracle.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "ef4eaab0e6b433ee5d53787838d5bbe028406b3b"
+  },
+  "div0rce/quant-systems-lab\tdocs/adr/0003-golden-fixture-regeneration.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "ef4eaab0e6b433ee5d53787838d5bbe028406b3b"
+  },
+  "div0rce/quant-systems-lab\tdocs/adr/0004-deterministic-shrinker.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "ef4eaab0e6b433ee5d53787838d5bbe028406b3b"
+  },
+  "div0rce/quant-systems-lab\tdocs/adr/0007-constrained-perf-artifacts-are-partial-evidence.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "86443f009d474afe9f05a7ff32203cce67685131"
+  },
+  "div0rce/quant-systems-lab\tdocs/adr/0008-socket-evidence-loopback-constrained-epoll-deferred.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "3f88a1fc7e4f753a50d1118d37bb333337bf7f1e"
+  },
+  "div0rce/quant-systems-lab\tdocs/adr/0011-event-log-durability-modes-and-tail-repair.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "d10bfb0f36972b7a67eedfdfd51a36bdb894e8e2"
+  },
+  "greatleee/greatlee-standard\tgreatlee-standard/tests/golden/be-only/docs/adr/0001-record-architecture-decisions.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "3f397d57c3f4c45f28adf281e88ee265046d294d"
+  },
+  "greatleee/greatlee-standard\tgreatlee-standard/tests/golden/be-only/docs/adr/TEMPLATE.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "3f397d57c3f4c45f28adf281e88ee265046d294d"
+  },
+  "greatleee/greatlee-standard\tgreatlee-standard/tests/golden/full/docs/adr/0001-record-architecture-decisions.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "3f397d57c3f4c45f28adf281e88ee265046d294d"
+  },
+  "greatleee/greatlee-standard\tgreatlee-standard/tests/golden/full/docs/adr/TEMPLATE.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "3f397d57c3f4c45f28adf281e88ee265046d294d"
+  },
+  "nikitakarpei/yacy-rwi-node\tyacynode/doc/adr/0006-use-testcontainers-for-e2e-tests.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "e8f247a23fb09908c29542c8643156e8926c5fd7"
+  },
+  "nikitakarpei/yacy-rwi-node\tyacynode/doc/adr/0007-use-nats-jetstream-for-node-crawler-queue.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "e8f247a23fb09908c29542c8643156e8926c5fd7"
+  },
+  "opendatahub-io/odh-dashboard\tpackages/gen-ai/docs/adr/0005-authentication-authorization-architecture.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "41a4f7700b512f40166853573b33d4e9c310bd93"
+  },
+  "opendatahub-io/odh-dashboard\tpackages/gen-ai/docs/adr/0010-kubernetes-client-architecture.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "41a4f7700b512f40166853573b33d4e9c310bd93"
+  },
+  "openstack-experimental/keystone\tdoc/src/adr/0016-v2-raft-storage.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "8c1420dccaad67648d0c7f8c7ff4920d4a27bfa4"
+  },
+  "openstack-experimental/keystone\tdoc/src/adr/0021-api-key-scim.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "8a159f78280695deed767e39b511e5b989d505e2"
+  },
+  "openstack-experimental/keystone\tdoc/src/adr/0022-rate-limiting.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "3a67158e37c957f69c1aef2b4fa2c38a432f415b"
+  },
+  "openstack-experimental/keystone\tdoc/src/adr/0023-audit.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "a955715ebc914eaaef46ab6b39c7ff9d308520a9"
+  },
+  "scottylabs-labrador/goldador\tdocs/adrs/0007-validator-as-a-service.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "1107ca79fdec9538943c0130cdac07d22b5fc81e"
+  },
+  "tweag/cardano-cls\tdoc/adr/0003-move-to-raw-mempack-use-instead-of-binary.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "d9c914f1eb506596c533fc314cc44ade6fb39bf5"
+  },
+  "yu-iskw/dbt-artifacts-parser-ts\tdocs/adr/0002-field-level-lineage-inference-via-ast-parsing.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "a772dc3dbeb514b0d158f48e81cc1082e5d4170d"
+  },
+  "yu-iskw/dbt-artifacts-parser-ts\tdocs/adr/0003-large-manifest-web-performance-dependency-index-and-lazy-sql.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "a772dc3dbeb514b0d158f48e81cc1082e5d4170d"
+  },
+  "yu-iskw/dbt-artifacts-parser-ts\tdocs/adr/0004-remote-object-storage-artifact-sources-and-auto-reload.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "a772dc3dbeb514b0d158f48e81cc1082e5d4170d"
+  },
+  "yu-iskw/dbt-artifacts-parser-ts\tdocs/adr/0006-timeline-includes-dbt-sources-via-snapshot-synthesis.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "a772dc3dbeb514b0d158f48e81cc1082e5d4170d"
+  },
+  "yu-iskw/dbt-artifacts-parser-ts\tdocs/adr/0007-first-party-coding-agent-plugins-and-repository-verification.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "a772dc3dbeb514b0d158f48e81cc1082e5d4170d"
+  },
+  "yu-iskw/dbt-artifacts-parser-ts\tdocs/adr/0008-dbt-tools-operational-intelligence-and-positioning-boundaries.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "a772dc3dbeb514b0d158f48e81cc1082e5d4170d"
+  },
+  "yu-iskw/dbt-artifacts-parser-ts\tdocs/adr/0009-npm-releases-authenticate-via-github-actions-oidc-trusted-publishing.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "a772dc3dbeb514b0d158f48e81cc1082e5d4170d"
+  },
+  "yu-iskw/dbt-artifacts-parser-ts\tdocs/adr/0010-shared-discovery-ranker-intent-commands-and-cli-web-deep-links.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "6bc0442a201a84c3fa058eca276ab506a5c29787"
+  },
+  "yu-iskw/dbt-helpers\tdocs/adr/0033-multi-version-dbt-integration-testing.md": {
+   "Lifecycle tag": "later only",
+   "ADR creation commit": "d63ba45082564669a1faaa1c650ef72aa6f58729"
+  },
+  "dogmatiq/runkit\tdocs/adr/0005-homogeneous-cluster-nodes.md": {
+   "Lifecycle tag": "unresolved",
+   "ADR creation commit": null
+  }
+ }
+}

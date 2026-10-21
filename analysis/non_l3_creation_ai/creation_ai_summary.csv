@@ -1,0 +1,12 @@
+section,level,item,count
+scope,all,records,71
+creation commit attribution,L2,AI attribution (automatic candidate),30
+creation commit attribution,L2,no qualifying AI attribution found,21
+creation commit attribution,L1,AI attribution (automatic candidate),7
+creation commit attribution,L1,no qualifying AI attribution found,13
+creation commit attribution,all,AI attribution (automatic candidate),37
+creation commit attribution,all,no qualifying AI attribution found,34
+rule check,all,reviewed commits re-detected,35
+rule check,all,distinct reviewed commits,35
+scope,all,distinct creation commits,52
+human review,all,not reviewed,71

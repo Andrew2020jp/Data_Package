@@ -1,6 +1,6 @@
 # Replication package: AI participation in Architecture Decision Records
 
-This package contains the data and scripts behind the paper's numbers and figures.
+This package contains the data and scripts behind the paper's numbers.
 
 ## Contents
 
@@ -9,8 +9,6 @@ This package contains the data and scripts behind the paper's numbers and figure
 | `data/repositories_849.csv` | The 849 public GitHub repositories collected on 29 June 2026 (`full_name`, `created_at`, `stars`, `contributors`). |
 | `data/adr_dataset.xlsx` | Full dataset. Main sheet: **Manual Review** (299 ADR records, one row per repository and ADR file path). Other sheets: repository-level screening of all 849 repositories, timestamps and creation-commit AI checks for the 71 L1/L2 records, excluded non-ADR material, and dataset notes. |
 | `scripts/reproduce_funnel.py` | Recomputes every count in the selection funnel (849 → 191 → 117 → 107 → 299 records → 253 confirmed). `offline` mode needs no network. `live` mode re-queries GitHub; results will differ because repositories change over time. |
-| `scripts/make_fig1_overview.py` | Draws Fig. 1 from the dataset. |
-| `scripts/make_fig2_4_results.py` | Draws Figs. 2–4 from the dataset. |
 | `scripts/check_non_l3_creation_ai.py` | Checks whether the creation commit of each of the 71 L1/L2 records carries an explicit AI signature, using the same rule as the selected commits. |
 | `analysis/non_l3_creation_ai/` | Output of that check: per-record evidence, summary, cached GitHub API responses and its own README. |
 
@@ -38,10 +36,8 @@ The repositories were found by searching GitHub for `0001-record-architecture-de
 ## Running
 
 ```
-pip install openpyxl matplotlib cairosvg
+pip install openpyxl
 python scripts/reproduce_funnel.py offline
-python scripts/make_fig1_overview.py       # -> figures/fig1_overview.{svg,pdf,png}
-python scripts/make_fig2_4_results.py      # -> figures/results_rq{1,2,3}.pdf
 python scripts/check_non_l3_creation_ai.py --offline   # creation-commit AI check from the cache
 ```
 
